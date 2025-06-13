@@ -13,8 +13,7 @@ let package = Package(
         .package(url: "https://github.com/modelcontextprotocol/swift-sdk.git", from: "0.9.0"),
         
         .package(url: "https://github.com/swift-server/swift-service-lifecycle.git", from: "2.8.0"),
-        .package(path: "../../Libraries/mcp-swift-sdk-helpers"),
-        
+        .package(url: "https://github.com/glaciotech/mcp-swift-sdk-helpers.git", from: "0.1.0")
     ],
     targets: [
         .executableTarget(
